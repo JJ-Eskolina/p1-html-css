@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+            Voornaam: <input type="text" name="voornaam" pattern="[A-Za-z]+" required><br>
+            Achternaam: <input type="text" name="achternaam" pattern="[A-Za-z]+" required><br>
+            Geslacht:
+            <input type="radio" name="geslacht" value="man" checked> Man
+            <input type="radio" name="geslacht" value="vrouw"> Vrouw<br>
+            Straat en huisnummer: <input type="text" name="adres" required><br>
+            Postcode: <input type="text" name="postcode" pattern="[0-9A-Za-z]{6,}" required><br>
+            Stad: <input type="text" name="stad" id="stad" required><br>
+            Land: <input type="text" name="land" required><br>
+            BSN-nummer: <input type="text" name="bsn" maxlength="9" pattern="[0-9]{9}" required><br>
+            Vakantieland:
+            <select name="vakantieland">
+              <option value="Spanje">Spanje</option>
+              <option value="Italië">Italië</option>
+              <option value="Frankrijk">Frankrijk</option>
+            </select><br>
+            Datum van vertrek: <input type="date" name="vertrek" min="<?php echo date('Y-m-d'); ?>" required><br>
+            Datum van terugkomst: <input type="date" name="terugkomst" required><br>
+            Aantal reisgenoten: <input type="number" name="reisgenoten" min="0" max="4" required><br>
+            E-mail: <input type="email" name="email" required><br>
+            Wachtwoord: <input type="password" name="wachtwoord" required><br>
+            <input type="submit" value="Boek nu">
+          </form>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
