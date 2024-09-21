@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+.header{
+    background-image: url("..//pics/main.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+
+
+    color: rgb(255, 249, 249);
+}
+
+.nav{
+
+    font-size: xx-large;
+    color: aliceblue;
+}
+a{
+    color: aliceblue;
+}
+h1{
+    color: aqua;
+}
+
+.footer{
+    background-color: rgb(10, 10, 10);
+
+}
