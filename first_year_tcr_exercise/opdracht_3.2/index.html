@@ -8,27 +8,55 @@
 <body>
     <main>
         <form>
-            Voornaam: <input type="text" name="voornaam" pattern="[A-Za-z]+" required><br>
-            Achternaam: <input type="text" name="achternaam" pattern="[A-Za-z]+" required><br>
-            Geslacht:
+            <label for="Voornaam">Voornaam:</label>
+             <input type="text" name="voornaam"  required><br>
+
+             <label for="Achternaam">Achternaam:</label>
+             <input type="text" name="achternaam"  required><br>
+
+            <label for="Geslacht">Geslacht:</label>
             <input type="radio" name="geslacht" value="man" checked> Man
             <input type="radio" name="geslacht" value="vrouw"> Vrouw<br>
-            Straat en huisnummer: <input type="text" name="adres" required><br>
-            Postcode: <input type="text" name="postcode" pattern="[0-9A-Za-z]{6,}" required><br>
-            Stad: <input type="text" name="stad" id="stad" required><br>
-            Land: <input type="text" name="land" required><br>
-            BSN-nummer: <input type="text" name="bsn" maxlength="9" pattern="[0-9]{9}" required><br>
-            Vakantieland:
+            
+            <label for="adres">Straat en huisnummer:</label>
+            <input type="text" name="adres" required><br>
+            
+
+            <label for="postcode">Postcode:</label>
+            <input type="text" name="postcode"  required><br>
+
+
+             <label for="Stad">Stad:</label>
+             <input type="text" name="stad" id="stad" required><br>
+
+            <label for="land">Land:</label>
+             <input type="text" name="land" required><br>
+
+             <label for="BSN-nummer">BSN-nummer:</label>
+             <input type="text" name="bsn" maxlength="9"  required><br>
+
+            <label for="Vakantieland">Vakantieland:</label>
             <select name="vakantieland">
               <option value="Spanje">Spanje</option>
               <option value="Italië">Italië</option>
               <option value="Frankrijk">Frankrijk</option>
             </select><br>
-            Datum van vertrek: <input type="date" name="vertrek" min="<?php echo date('Y-m-d'); ?>" required><br>
-            Datum van terugkomst: <input type="date" name="terugkomst" required><br>
-            Aantal reisgenoten: <input type="number" name="reisgenoten" min="0" max="4" required><br>
-            E-mail: <input type="email" name="email" required><br>
-            Wachtwoord: <input type="password" name="wachtwoord" required><br>
+
+            <label for="Datum van vertrek">Datum van vertrek:</label> 
+            <input type="date" name="vertrek"  required><br>
+
+            <label for="Datum van terugkomst">Datum van terugkomst:</label>
+             <input type="date" name="terugkomst" required><br>
+
+            <label for="Aantal reisgenoten">Aantal reisgenoten:</label>
+             <input type="number" name="reisgenoten" min="0" max="4" required><br>
+
+            <label for="E-mail">E-mail:</label>
+            <input type="email" name="email" required><br>
+
+            <label for="password">Wachtwoord:</label> 
+            <input type="password" name="wachtwoord" required><br>
+            
             <input type="submit" value="Boek nu">
           </form>
     </main>
