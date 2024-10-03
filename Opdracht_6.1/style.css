@@ -9,8 +9,11 @@
     height: 200px;
 }
 .container{
+    margin: 5vw;
+    border: 1px solid black;
     display: flex;
     flex-flow: row-reverse;
+    justify-content: center;
     width: 1200px;
     .box_1{
         background-color: blue;
@@ -25,3 +28,4 @@
         background-color: green;
     }
 }
+/* JJ-Eskolina */
