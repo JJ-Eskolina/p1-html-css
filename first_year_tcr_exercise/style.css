@@ -19,7 +19,7 @@ main{
 
 nav {
   display: flex;
-  width: 100%;
+  width: 100vw;
   padding: 2rem;
   min-height: 10vh;
   align-items: center;
@@ -48,6 +48,31 @@ nav img {
 img{
   float:left
   
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 20vw;
+  box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  
+  a{
+    padding: 1rem;
+    display: block;
+    color: #00a8c7;
+    text-align: left;
+  }
+}
+.dropdown-menu:hover{
+  background-color: #E9E9E9;
+  a{
+    color: #00a8c7;
+  }
+}
+.dropdown-menu:hover .dropdown-content{
+  display: block;
 }
 
 
