@@ -10,6 +10,11 @@ html {
 
 body {
   font-family: "Goldman", cursive;
+  height: 100vh;
+}
+
+main{
+  height: 100vh;
 }
 
 nav {
@@ -47,14 +52,10 @@ img{
 
 
 footer{
-  clear: left;
-  
-}
-
-footer{
   background: #00a8c7;
   margin-top: auto;
   padding: 2rem;
+  clear: left;
   
 }
 .H-sql{
@@ -80,22 +81,24 @@ footer{
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-}
-.Mpage h1{
-  text-align: center;
-  padding: 30rem;
-  font-size: xxx-large;
+
+  h1{
+    text-align: center;
+    padding: 30rem;
+    font-size: xxx-large;
+  }
 }
 
 .Java{
   background: #151515;
   color: aliceblue;
+  h1{
+    padding: 3.1rem;
+    font-size: 5rem;
+    text-align: center;
+  }
 }
-.Java h1{
-  padding: 3.1rem;
-  font-size: 5rem;
-  text-align: center;
-}
+
 .Java main img{
   width: 60rem;
   padding: 10rem;
