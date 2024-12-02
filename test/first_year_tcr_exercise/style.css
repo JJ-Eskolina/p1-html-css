@@ -53,7 +53,6 @@ img{
 .dropdown-content{
   display: none;
   position: absolute;
-
   background-color: white;
   min-width: 20vw;
   box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);

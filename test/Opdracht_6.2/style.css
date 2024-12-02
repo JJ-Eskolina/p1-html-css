@@ -8,12 +8,6 @@
     width: 200px;
     height: 200px;
 }
-.a{
-    width: 25%;
-}
-.b{
-    width: 50%;
-}
 .container{
     margin: 5vw;
     border: 1px solid black;
@@ -21,7 +15,6 @@
     flex-flow: row-reverse;
     justify-content: center;
     width: 1200px;
-
     .box_1{
         background-color: blue;
     }
